@@ -7,7 +7,7 @@ function where(collection, source) {
         }
     }
 
-    return (arr);
+    return arr;
 }
 
 where([{
