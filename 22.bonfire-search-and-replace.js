@@ -14,10 +14,11 @@ function replace(str, find, replace) {
     var firstLetter = str.charAt(posFirstLetter);
 // replace without the capitalization     
     var strReplaced = strOrig.replace(new RegExp(find, 'gi'), replace);
-// Capitalize, is it upper?
+// Capitalize the new array if the original was in upper
     if (findOrig[0] == findOrig[0].toUpperCase()) {
         strReplaced = capitalizeFirstLetter(strReplaced, posFirstLetter);
     }
+// else do nothing    
     return strReplaced;
 }
 
