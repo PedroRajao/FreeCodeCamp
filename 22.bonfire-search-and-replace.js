@@ -21,5 +21,5 @@ function replace(str, find, replace) {
 }
 
 function capitalizeFirstLetter(string, pos_str) {
-    return string.substr(0, pos_str) + string.charAt(pos_str).toUpperCase() + string.slice(pos_str + 1);
+    return string.substr(0, pos_str) + string.charAt(pos_str).toUpperCase() + string.substr(pos_str + 1);
 }
