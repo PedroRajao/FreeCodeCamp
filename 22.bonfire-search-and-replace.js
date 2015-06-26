@@ -9,7 +9,6 @@ function replace(str, find, replace) {
     str  = str.toLowerCase();
 // int :  first letter 
     var posFirstLetter = str.indexOf(find);
-    posFirstLetter = parseInt(posFirstLetter);
 // char : first letter
     var firstLetter = str.charAt(posFirstLetter);
 // replace without the capitalization     
