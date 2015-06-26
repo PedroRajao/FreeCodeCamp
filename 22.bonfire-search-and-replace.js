@@ -18,7 +18,6 @@ function replace(str, find, replace) {
     if (findOrig[0] == findOrig[0].toUpperCase()) {
         strReplaced = capitalizeFirstLetter(strReplaced, posFirstLetter);
     }
-// else do nothing    
     return strReplaced;
 }
 
