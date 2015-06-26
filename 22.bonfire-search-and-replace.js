@@ -4,7 +4,7 @@ function replace(str, find, replace) {
 // Originals
     var findOrig = find;
     var strOrig = str;
-// TO COMPARISON    
+// All Lowercase    
     find = find.toLowerCase();
     str  = str.toLowerCase();
 // int :  first letter 
